@@ -1,0 +1,6 @@
+framework module Pods_fmdb_start {
+  umbrella header "Pods-fmdb_start-umbrella.h"
+
+  export *
+  module * { export * }
+}

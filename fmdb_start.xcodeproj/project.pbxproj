@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF96FEF6D0057F3262D501C /* Pods_fmdb_startTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77EF378E5E55447BDCDE2EA /* Pods_fmdb_startTests.framework */; };
+		7B444F8946A699CABBB2C7E7 /* Pods_fmdb_startUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1130E3827A2392F6EA9D774D /* Pods_fmdb_startUITests.framework */; };
+		8B011B6F53D01886035B8D6B /* Pods_fmdb_start.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90E8D2538658524567EEDA2 /* Pods_fmdb_start.framework */; };
+		CE01812921164D740034FC28 /* colorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01812821164D740034FC28 /* colorViewController.swift */; };
+		CE01812B21164E810034FC28 /* colorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01812A21164E810034FC28 /* colorTableViewCell.swift */; };
+		CE01812D2116D5870034FC28 /* selectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01812C2116D5870034FC28 /* selectColorViewController.swift */; };
+		CE01812F21176D9E0034FC28 /* colorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE01812E21176D9D0034FC28 /* colorList.swift */; };
+		CE07D20D21754AA0006C04D6 /* Zikann_UmeKeizai2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE07D20C21754A9F006C04D6 /* Zikann_UmeKeizai2.sqlite */; };
+		CE0C0CCD2101FC25006E7128 /* shirabasuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C0CCC2101FC25006E7128 /* shirabasuViewController.swift */; };
+		CE0C0E2D21033D6D006E7128 /* allLecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C0E2C21033D6D006E7128 /* allLecViewController.swift */; };
+		CE0C0E2F21033E2E006E7128 /* allLecTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C0E2E21033E2E006E7128 /* allLecTableViewCell.swift */; };
+		CE0F07D02144FF31005138BD /* Zikann_SaveName4.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE0F07CE2144FF30005138BD /* Zikann_SaveName4.sqlite */; };
+		CE1D232421069C7F004BA8AC /* umeSothuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D232321069C7F004BA8AC /* umeSothuViewController.swift */; };
+		CE32AF3A215CBBEB00440E34 /* getWhichDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32AF39215CBBEB00440E34 /* getWhichDevice.swift */; };
+		CE32AF3C215E011E00440E34 /* getKeyboardHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32AF3B215E011E00440E34 /* getKeyboardHeight.swift */; };
+		CE32AF3E215E0D0300440E34 /* getSafeViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32AF3D215E0D0300440E34 /* getSafeViewHeight.swift */; };
+		CE416DB921038FC500C2D039 /* shirabasuFromAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE416DB821038FC500C2D039 /* shirabasuFromAllViewController.swift */; };
+		CE42699821580D760082CF71 /* shiraImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42699721580D760082CF71 /* shiraImgViewController.swift */; };
+		CE50CCAB2113A57F00E4981F /* addPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50CCA92113A57F00E4981F /* addPopupViewController.swift */; };
+		CE50CCAC2113A57F00E4981F /* addPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50CCAA2113A57F00E4981F /* addPopupViewController.xib */; };
+		CE50CCEC2115FA2400E4981F /* db_colorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50CCEB2115FA2400E4981F /* db_colorType.swift */; };
+		CE5C47B2211C77300035CB45 /* lecTableFromKeizaiUmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47B1211C77300035CB45 /* lecTableFromKeizaiUmeViewController.swift */; };
+		CE5C47B6211C782C0035CB45 /* lecTableFromKeizaiUmeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47B5211C782C0035CB45 /* lecTableFromKeizaiUmeTableViewCell.swift */; };
+		CE5C47BA211C9E530035CB45 /* umeSothukeizaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47B9211C9E520035CB45 /* umeSothukeizaiViewController.swift */; };
+		CE5C47BD211CBA370035CB45 /* PopupKeizaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47BB211CBA370035CB45 /* PopupKeizaiViewController.swift */; };
+		CE5C47BE211CBA370035CB45 /* PopupKeizaiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5C47BC211CBA370035CB45 /* PopupKeizaiViewController.xib */; };
+		CE5C47C0211CC5660035CB45 /* umeSothukokusaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47BF211CC5660035CB45 /* umeSothukokusaiViewController.swift */; };
+		CE5C47C2211CD34A0035CB45 /* lecTableFromKokusaiUmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47C1211CD34A0035CB45 /* lecTableFromKokusaiUmeViewController.swift */; };
+		CE5C47C4211CD37E0035CB45 /* lecTableFromKokusaiUmeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47C3211CD37E0035CB45 /* lecTableFromKokusaiUmeTableViewCell.swift */; };
+		CE5C47C7211CE9D30035CB45 /* PopupKokusaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C47C5211CE9D30035CB45 /* PopupKokusaiViewController.swift */; };
+		CE5C47C8211CE9D30035CB45 /* PopupKokusaiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5C47C6211CE9D30035CB45 /* PopupKokusaiViewController.xib */; };
+		CE6100C221108C790074AE48 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6100C021108C790074AE48 /* PopupViewController.swift */; };
+		CE6100C321108C790074AE48 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6100C121108C790074AE48 /* PopupViewController.xib */; };
+		CE6534AD21768A9C0052B12E /* Zikann_RegLec12.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE6534AC21768A9C0052B12E /* Zikann_RegLec12.sqlite */; };
+		CE6534B921769B220052B12E /* getTiikiColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6534B821769B220052B12E /* getTiikiColor.swift */; };
+		CE6534BB2177CD590052B12E /* Zikann_ColorType9.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CE6534BA2177CD580052B12E /* Zikann_ColorType9.sqlite */; };
+		CE6534BF21780F8C0052B12E /* getTiikiNewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6534BE21780F8C0052B12E /* getTiikiNewType.swift */; };
+		CE6B62A320F4BB26002F27EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62A220F4BB26002F27EB /* AppDelegate.swift */; };
+		CE6B62A520F4BB26002F27EB /* komaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62A420F4BB26002F27EB /* komaViewController.swift */; };
+		CE6B62A820F4BB26002F27EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6B62A620F4BB26002F27EB /* Main.storyboard */; };
+		CE6B62AA20F4BB27002F27EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6B62A920F4BB27002F27EB /* Assets.xcassets */; };
+		CE6B62AD20F4BB27002F27EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6B62AB20F4BB27002F27EB /* LaunchScreen.storyboard */; };
+		CE6B62B820F4BB27002F27EB /* fmdb_startTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62B720F4BB27002F27EB /* fmdb_startTests.swift */; };
+		CE6B62C320F4BB27002F27EB /* fmdb_startUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62C220F4BB27002F27EB /* fmdb_startUITests.swift */; };
+		CE6B62DD20F4BB59002F27EB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62D220F4BB59002F27EB /* FMDatabaseQueue.m */; };
+		CE6B62DE20F4BB59002F27EB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62D520F4BB59002F27EB /* FMDatabaseAdditions.m */; };
+		CE6B62DF20F4BB59002F27EB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62D620F4BB59002F27EB /* FMDatabase.m */; };
+		CE6B62E020F4BB59002F27EB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62DA20F4BB59002F27EB /* FMDatabasePool.m */; };
+		CE6B62E120F4BB59002F27EB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62DB20F4BB59002F27EB /* FMResultSet.m */; };
+		CE6B62E520F4BB73002F27EB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6B62E420F4BB73002F27EB /* libsqlite3.0.tbd */; };
+		CE6B62E920F4BC52002F27EB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B62E820F4BC52002F27EB /* Util.swift */; };
+		CE6B639820F4D69E002F27EB /* db_koma.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B639720F4D69E002F27EB /* db_koma.swift */; };
+		CE6B639A20F4D806002F27EB /* FMDBDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B639920F4D806002F27EB /* FMDBDatabaseModel.swift */; };
+		CE6F18B72118EA59007AC78A /* selectNewColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F18B62118EA59007AC78A /* selectNewColorViewController.swift */; };
+		CEA4840420FBE41500B00849 /* lecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4840320FBE41500B00849 /* lecViewController.swift */; };
+		CEA4840620FBE48F00B00849 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4840520FBE48F00B00849 /* TableViewCell.swift */; };
+		CEA4840820FD18B000B00849 /* db_regLec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4840720FD18B000B00849 /* db_regLec.swift */; };
+		CEA4840A20FDCFFC00B00849 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4840920FDCFFC00B00849 /* DetailViewController.swift */; };
+		CEC099EA212D433600F4B806 /* backgroundList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC099E9212D433600F4B806 /* backgroundList.swift */; };
+		CEC7958E2136530E00191B41 /* db_umekeizai.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7958D2136530E00191B41 /* db_umekeizai.swift */; };
+		CEC795A62136B42300191B41 /* backImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC795A52136B42300191B41 /* backImgViewController.swift */; };
+		CEC795A82136B4AD00191B41 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC795A72136B4AD00191B41 /* CarouselCell.swift */; };
+		CEC795AC2136B51300191B41 /* PagingPerCellFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC795AB2136B51300191B41 /* PagingPerCellFlowLayout.swift */; };
+		CED9A516210923EC00018BFB /* lecTableFromUmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9A515210923EC00018BFB /* lecTableFromUmeViewController.swift */; };
+		CED9A518210924F500018BFB /* lecTableFromUmeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9A517210924F500018BFB /* lecTableFromUmeTableViewCell.swift */; };
+		CEDE94252141810E004D2847 /* addZIkannPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE94232141810E004D2847 /* addZIkannPopupViewController.swift */; };
+		CEDE94262141810E004D2847 /* addZIkannPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDE94242141810E004D2847 /* addZIkannPopupViewController.xib */; };
+		CEDE942A2142BDC8004D2847 /* db_zikannName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE94292142BDC8004D2847 /* db_zikannName.swift */; };
+		CEE0A49B2164AD2800BE6732 /* syussekiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0A49A2164AD2800BE6732 /* syussekiTableViewCell.swift */; };
+		CEE0A49D2164B32700BE6732 /* db_syusseki.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0A49C2164B32700BE6732 /* db_syusseki.swift */; };
+		CEE0A49F2164BEA100BE6732 /* syusseki2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CEE0A49E2164BE9E00BE6732 /* syusseki2.sqlite */; };
+		CEEC6352213EE7AB00044E9F /* iPhoneFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC6351213EE7AB00044E9F /* iPhoneFrame.swift */; };
+		CEF44C012163FA2B0090ACE7 /* Zikann_Koma9.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CEF44C002163FA2A0090ACE7 /* Zikann_Koma9.sqlite */; };
+		CEF44C03216412B00090ACE7 /* syussekiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF44C02216412B00090ACE7 /* syussekiViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6B62B420F4BB27002F27EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6B629720F4BB25002F27EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6B629E20F4BB26002F27EB;
+			remoteInfo = fmdb_start;
+		};
+		CE6B62BF20F4BB27002F27EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6B629720F4BB25002F27EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6B629E20F4BB26002F27EB;
+			remoteInfo = fmdb_start;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1130E3827A2392F6EA9D774D /* Pods_fmdb_startUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fmdb_startUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1615B5C26545B89FACD0CD7B /* Pods-fmdb_startTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fmdb_startTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fmdb_startTests/Pods-fmdb_startTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A23EA9F42F04A7A453F044F /* Pods-fmdb_startUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fmdb_startUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fmdb_startUITests/Pods-fmdb_startUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EF6695BFF92120E13BD1D03 /* Pods-fmdb_start.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fmdb_start.release.xcconfig"; path = "Pods/Target Support Files/Pods-fmdb_start/Pods-fmdb_start.release.xcconfig"; sourceTree = "<group>"; };
+		7502C72C1FFF5967F6E6032D /* Pods-fmdb_start.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fmdb_start.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fmdb_start/Pods-fmdb_start.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CA1CA41616E27F89FC2F82 /* Pods-fmdb_startUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fmdb_startUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fmdb_startUITests/Pods-fmdb_startUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE01812821164D740034FC28 /* colorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorViewController.swift; sourceTree = "<group>"; };
+		CE01812A21164E810034FC28 /* colorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorTableViewCell.swift; sourceTree = "<group>"; };
+		CE01812C2116D5870034FC28 /* selectColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectColorViewController.swift; sourceTree = "<group>"; };
+		CE01812E21176D9D0034FC28 /* colorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorList.swift; sourceTree = "<group>"; };
+		CE07D20C21754A9F006C04D6 /* Zikann_UmeKeizai2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zikann_UmeKeizai2.sqlite; path = "../../../高経時間割/時間割DB/Zikann_UmeKeizai2.sqlite"; sourceTree = "<group>"; };
+		CE0C0CCC2101FC25006E7128 /* shirabasuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shirabasuViewController.swift; sourceTree = "<group>"; };
+		CE0C0E2C21033D6D006E7128 /* allLecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allLecViewController.swift; sourceTree = "<group>"; };
+		CE0C0E2E21033E2E006E7128 /* allLecTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allLecTableViewCell.swift; sourceTree = "<group>"; };
+		CE0F07CE2144FF30005138BD /* Zikann_SaveName4.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zikann_SaveName4.sqlite; sourceTree = "<group>"; };
+		CE1D232321069C7F004BA8AC /* umeSothuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umeSothuViewController.swift; sourceTree = "<group>"; };
+		CE32AF39215CBBEB00440E34 /* getWhichDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getWhichDevice.swift; sourceTree = "<group>"; };
+		CE32AF3B215E011E00440E34 /* getKeyboardHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getKeyboardHeight.swift; sourceTree = "<group>"; };
+		CE32AF3D215E0D0300440E34 /* getSafeViewHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getSafeViewHeight.swift; sourceTree = "<group>"; };
+		CE416DB821038FC500C2D039 /* shirabasuFromAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shirabasuFromAllViewController.swift; sourceTree = "<group>"; };
+		CE42699721580D760082CF71 /* shiraImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shiraImgViewController.swift; sourceTree = "<group>"; };
+		CE50CCA92113A57F00E4981F /* addPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPopupViewController.swift; sourceTree = "<group>"; };
+		CE50CCAA2113A57F00E4981F /* addPopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = addPopupViewController.xib; sourceTree = "<group>"; };
+		CE50CCEB2115FA2400E4981F /* db_colorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db_colorType.swift; sourceTree = "<group>"; };
+		CE5C47B1211C77300035CB45 /* lecTableFromKeizaiUmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecTableFromKeizaiUmeViewController.swift; sourceTree = "<group>"; };
+		CE5C47B5211C782C0035CB45 /* lecTableFromKeizaiUmeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecTableFromKeizaiUmeTableViewCell.swift; sourceTree = "<group>"; };
+		CE5C47B9211C9E520035CB45 /* umeSothukeizaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = umeSothukeizaiViewController.swift; path = ../umeSothukeizaiViewController.swift; sourceTree = "<group>"; };
+		CE5C47BB211CBA370035CB45 /* PopupKeizaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupKeizaiViewController.swift; sourceTree = "<group>"; };
+		CE5C47BC211CBA370035CB45 /* PopupKeizaiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupKeizaiViewController.xib; sourceTree = "<group>"; };
+		CE5C47BF211CC5660035CB45 /* umeSothukokusaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umeSothukokusaiViewController.swift; sourceTree = "<group>"; };
+		CE5C47C1211CD34A0035CB45 /* lecTableFromKokusaiUmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecTableFromKokusaiUmeViewController.swift; sourceTree = "<group>"; };
+		CE5C47C3211CD37E0035CB45 /* lecTableFromKokusaiUmeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecTableFromKokusaiUmeTableViewCell.swift; sourceTree = "<group>"; };
+		CE5C47C5211CE9D30035CB45 /* PopupKokusaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupKokusaiViewController.swift; sourceTree = "<group>"; };
+		CE5C47C6211CE9D30035CB45 /* PopupKokusaiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupKokusaiViewController.xib; sourceTree = "<group>"; };
+		CE6100C021108C790074AE48 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		CE6100C121108C790074AE48 /* PopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		CE6534AC21768A9C0052B12E /* Zikann_RegLec12.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zikann_RegLec12.sqlite; sourceTree = "<group>"; };
+		CE6534B821769B220052B12E /* getTiikiColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTiikiColor.swift; sourceTree = "<group>"; };
+		CE6534BA2177CD580052B12E /* Zikann_ColorType9.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zikann_ColorType9.sqlite; sourceTree = "<group>"; };
+		CE6534BE21780F8C0052B12E /* getTiikiNewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = getTiikiNewType.swift; path = ../getTiikiNewType.swift; sourceTree = "<group>"; };
+		CE6B629F20F4BB26002F27EB /* fmdb_start.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fmdb_start.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6B62A220F4BB26002F27EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6B62A420F4BB26002F27EB /* komaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = komaViewController.swift; sourceTree = "<group>"; };
+		CE6B62A720F4BB26002F27EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6B62A920F4BB27002F27EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6B62AC20F4BB27002F27EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6B62AE20F4BB27002F27EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B62B320F4BB27002F27EB /* fmdb_startTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fmdb_startTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6B62B720F4BB27002F27EB /* fmdb_startTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fmdb_startTests.swift; sourceTree = "<group>"; };
+		CE6B62B920F4BB27002F27EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B62BE20F4BB27002F27EB /* fmdb_startUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fmdb_startUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6B62C220F4BB27002F27EB /* fmdb_startUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fmdb_startUITests.swift; sourceTree = "<group>"; };
+		CE6B62C420F4BB27002F27EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B62D120F4BB59002F27EB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CE6B62D220F4BB59002F27EB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CE6B62D320F4BB59002F27EB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CE6B62D420F4BB59002F27EB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CE6B62D520F4BB59002F27EB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CE6B62D620F4BB59002F27EB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CE6B62D720F4BB59002F27EB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CE6B62D820F4BB59002F27EB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		CE6B62D920F4BB59002F27EB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CE6B62DA20F4BB59002F27EB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CE6B62DB20F4BB59002F27EB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CE6B62DC20F4BB59002F27EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6B62E420F4BB73002F27EB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CE6B62E720F4BBC3002F27EB /* fmdb_start-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fmdb_start-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE6B62E820F4BC52002F27EB /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		CE6B639720F4D69E002F27EB /* db_koma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db_koma.swift; sourceTree = "<group>"; };
+		CE6B639920F4D806002F27EB /* FMDBDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBDatabaseModel.swift; sourceTree = "<group>"; };
+		CE6F18B62118EA59007AC78A /* selectNewColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectNewColorViewController.swift; sourceTree = "<group>"; };
+		CEA4840320FBE41500B00849 /* lecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecViewController.swift; sourceTree = "<group>"; };
+		CEA4840520FBE48F00B00849 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CEA4840720FD18B000B00849 /* db_regLec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db_regLec.swift; sourceTree = "<group>"; };
+		CEA4840920FDCFFC00B00849 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEC099E9212D433600F4B806 /* backgroundList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundList.swift; sourceTree = "<group>"; };
+		CEC7958D2136530E00191B41 /* db_umekeizai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db_umekeizai.swift; sourceTree = "<group>"; };
+		CEC795A52136B42300191B41 /* backImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backImgViewController.swift; sourceTree = "<group>"; };
+		CEC795A72136B4AD00191B41 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		CEC795AB2136B51300191B41 /* PagingPerCellFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingPerCellFlowLayout.swift; sourceTree = "<group>"; };
+		CED9A515210923EC00018BFB /* lecTableFromUmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecTableFromUmeViewController.swift; sourceTree = "<group>"; };
+		CED9A517210924F500018BFB /* lecTableFromUmeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecTableFromUmeTableViewCell.swift; sourceTree = "<group>"; };
+		CEDE94232141810E004D2847 /* addZIkannPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addZIkannPopupViewController.swift; sourceTree = "<group>"; };
+		CEDE94242141810E004D2847 /* addZIkannPopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = addZIkannPopupViewController.xib; sourceTree = "<group>"; };
+		CEDE94292142BDC8004D2847 /* db_zikannName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db_zikannName.swift; sourceTree = "<group>"; };
+		CEE0A49A2164AD2800BE6732 /* syussekiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = syussekiTableViewCell.swift; sourceTree = "<group>"; };
+		CEE0A49C2164B32700BE6732 /* db_syusseki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db_syusseki.swift; sourceTree = "<group>"; };
+		CEE0A49E2164BE9E00BE6732 /* syusseki2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = syusseki2.sqlite; sourceTree = "<group>"; };
+		CEEC6351213EE7AB00044E9F /* iPhoneFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneFrame.swift; sourceTree = "<group>"; };
+		CEF44C002163FA2A0090ACE7 /* Zikann_Koma9.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zikann_Koma9.sqlite; sourceTree = "<group>"; };
+		CEF44C02216412B00090ACE7 /* syussekiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = syussekiViewController.swift; sourceTree = "<group>"; };
+		D77EF378E5E55447BDCDE2EA /* Pods_fmdb_startTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fmdb_startTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14D9B6BDC42F0E715F53077 /* Pods-fmdb_startTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fmdb_startTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fmdb_startTests/Pods-fmdb_startTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F90E8D2538658524567EEDA2 /* Pods_fmdb_start.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fmdb_start.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6B629C20F4BB26002F27EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B62E520F4BB73002F27EB /* libsqlite3.0.tbd in Frameworks */,
+				8B011B6F53D01886035B8D6B /* Pods_fmdb_start.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6B62B020F4BB27002F27EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF96FEF6D0057F3262D501C /* Pods_fmdb_startTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6B62BB20F4BB27002F27EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B444F8946A699CABBB2C7E7 /* Pods_fmdb_startUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29EDBE924E879AC76E0ABCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7502C72C1FFF5967F6E6032D /* Pods-fmdb_start.debug.xcconfig */,
+				3EF6695BFF92120E13BD1D03 /* Pods-fmdb_start.release.xcconfig */,
+				E14D9B6BDC42F0E715F53077 /* Pods-fmdb_startTests.debug.xcconfig */,
+				1615B5C26545B89FACD0CD7B /* Pods-fmdb_startTests.release.xcconfig */,
+				A4CA1CA41616E27F89FC2F82 /* Pods-fmdb_startUITests.debug.xcconfig */,
+				3A23EA9F42F04A7A453F044F /* Pods-fmdb_startUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE6B629620F4BB25002F27EB = {
+			isa = PBXGroup;
+			children = (
+				CE6B62A120F4BB26002F27EB /* fmdb_start */,
+				CE6B62B620F4BB27002F27EB /* fmdb_startTests */,
+				CE6B62C120F4BB27002F27EB /* fmdb_startUITests */,
+				CE6B62A020F4BB26002F27EB /* Products */,
+				CE6B62E320F4BB73002F27EB /* Frameworks */,
+				B29EDBE924E879AC76E0ABCA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6B62A020F4BB26002F27EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B629F20F4BB26002F27EB /* fmdb_start.app */,
+				CE6B62B320F4BB27002F27EB /* fmdb_startTests.xctest */,
+				CE6B62BE20F4BB27002F27EB /* fmdb_startUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6B62A120F4BB26002F27EB /* fmdb_start */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B62D020F4BB59002F27EB /* fmdb */,
+				CE6B62A220F4BB26002F27EB /* AppDelegate.swift */,
+				CE6B62E820F4BC52002F27EB /* Util.swift */,
+				CE6B639720F4D69E002F27EB /* db_koma.swift */,
+				CEA4840720FD18B000B00849 /* db_regLec.swift */,
+				CE50CCEB2115FA2400E4981F /* db_colorType.swift */,
+				CEC7958D2136530E00191B41 /* db_umekeizai.swift */,
+				CEDE94292142BDC8004D2847 /* db_zikannName.swift */,
+				CEE0A49C2164B32700BE6732 /* db_syusseki.swift */,
+				CE01812E21176D9D0034FC28 /* colorList.swift */,
+				CEC099E9212D433600F4B806 /* backgroundList.swift */,
+				CEEC6351213EE7AB00044E9F /* iPhoneFrame.swift */,
+				CE6534BE21780F8C0052B12E /* getTiikiNewType.swift */,
+				CE6534B821769B220052B12E /* getTiikiColor.swift */,
+				CE32AF39215CBBEB00440E34 /* getWhichDevice.swift */,
+				CE32AF3B215E011E00440E34 /* getKeyboardHeight.swift */,
+				CE32AF3D215E0D0300440E34 /* getSafeViewHeight.swift */,
+				CE6B639920F4D806002F27EB /* FMDBDatabaseModel.swift */,
+				CE6B62A420F4BB26002F27EB /* komaViewController.swift */,
+				CEA4840920FDCFFC00B00849 /* DetailViewController.swift */,
+				CE6F18B62118EA59007AC78A /* selectNewColorViewController.swift */,
+				CEF44C02216412B00090ACE7 /* syussekiViewController.swift */,
+				CEE0A49A2164AD2800BE6732 /* syussekiTableViewCell.swift */,
+				CEDE94232141810E004D2847 /* addZIkannPopupViewController.swift */,
+				CEDE94242141810E004D2847 /* addZIkannPopupViewController.xib */,
+				CEA4840320FBE41500B00849 /* lecViewController.swift */,
+				CE50CCA92113A57F00E4981F /* addPopupViewController.swift */,
+				CE50CCAA2113A57F00E4981F /* addPopupViewController.xib */,
+				CEA4840520FBE48F00B00849 /* TableViewCell.swift */,
+				CE42699721580D760082CF71 /* shiraImgViewController.swift */,
+				CE0C0CCC2101FC25006E7128 /* shirabasuViewController.swift */,
+				CE0C0E2C21033D6D006E7128 /* allLecViewController.swift */,
+				CE0C0E2E21033E2E006E7128 /* allLecTableViewCell.swift */,
+				CE416DB821038FC500C2D039 /* shirabasuFromAllViewController.swift */,
+				CE1D232321069C7F004BA8AC /* umeSothuViewController.swift */,
+				CE5C47B9211C9E520035CB45 /* umeSothukeizaiViewController.swift */,
+				CE5C47BF211CC5660035CB45 /* umeSothukokusaiViewController.swift */,
+				CE6100C021108C790074AE48 /* PopupViewController.swift */,
+				CE6100C121108C790074AE48 /* PopupViewController.xib */,
+				CE5C47BB211CBA370035CB45 /* PopupKeizaiViewController.swift */,
+				CE5C47BC211CBA370035CB45 /* PopupKeizaiViewController.xib */,
+				CE5C47C5211CE9D30035CB45 /* PopupKokusaiViewController.swift */,
+				CE5C47C6211CE9D30035CB45 /* PopupKokusaiViewController.xib */,
+				CED9A515210923EC00018BFB /* lecTableFromUmeViewController.swift */,
+				CED9A517210924F500018BFB /* lecTableFromUmeTableViewCell.swift */,
+				CE5C47B1211C77300035CB45 /* lecTableFromKeizaiUmeViewController.swift */,
+				CE5C47B5211C782C0035CB45 /* lecTableFromKeizaiUmeTableViewCell.swift */,
+				CE5C47C1211CD34A0035CB45 /* lecTableFromKokusaiUmeViewController.swift */,
+				CE5C47C3211CD37E0035CB45 /* lecTableFromKokusaiUmeTableViewCell.swift */,
+				CE01812821164D740034FC28 /* colorViewController.swift */,
+				CE01812A21164E810034FC28 /* colorTableViewCell.swift */,
+				CE01812C2116D5870034FC28 /* selectColorViewController.swift */,
+				CEC795A52136B42300191B41 /* backImgViewController.swift */,
+				CEC795A72136B4AD00191B41 /* CarouselCell.swift */,
+				CEC795AB2136B51300191B41 /* PagingPerCellFlowLayout.swift */,
+				CE6B62A620F4BB26002F27EB /* Main.storyboard */,
+				CE6B62A920F4BB27002F27EB /* Assets.xcassets */,
+				CE6B62AB20F4BB27002F27EB /* LaunchScreen.storyboard */,
+				CE07D20C21754A9F006C04D6 /* Zikann_UmeKeizai2.sqlite */,
+				CE6534AC21768A9C0052B12E /* Zikann_RegLec12.sqlite */,
+				CE6534BA2177CD580052B12E /* Zikann_ColorType9.sqlite */,
+				CEF44C002163FA2A0090ACE7 /* Zikann_Koma9.sqlite */,
+				CEE0A49E2164BE9E00BE6732 /* syusseki2.sqlite */,
+				CE0F07CE2144FF30005138BD /* Zikann_SaveName4.sqlite */,
+				CEDE942B2142CD05004D2847 /* New Group */,
+				CE6B62AE20F4BB27002F27EB /* Info.plist */,
+				CE6B62E720F4BBC3002F27EB /* fmdb_start-Bridging-Header.h */,
+			);
+			path = fmdb_start;
+			sourceTree = "<group>";
+		};
+		CE6B62B620F4BB27002F27EB /* fmdb_startTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B62B720F4BB27002F27EB /* fmdb_startTests.swift */,
+				CE6B62B920F4BB27002F27EB /* Info.plist */,
+			);
+			path = fmdb_startTests;
+			sourceTree = "<group>";
+		};
+		CE6B62C120F4BB27002F27EB /* fmdb_startUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B62C220F4BB27002F27EB /* fmdb_startUITests.swift */,
+				CE6B62C420F4BB27002F27EB /* Info.plist */,
+			);
+			path = fmdb_startUITests;
+			sourceTree = "<group>";
+		};
+		CE6B62D020F4BB59002F27EB /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B62D120F4BB59002F27EB /* FMDatabase.h */,
+				CE6B62D220F4BB59002F27EB /* FMDatabaseQueue.m */,
+				CE6B62D320F4BB59002F27EB /* FMResultSet.h */,
+				CE6B62D420F4BB59002F27EB /* FMDatabasePool.h */,
+				CE6B62D520F4BB59002F27EB /* FMDatabaseAdditions.m */,
+				CE6B62D620F4BB59002F27EB /* FMDatabase.m */,
+				CE6B62D720F4BB59002F27EB /* FMDatabaseQueue.h */,
+				CE6B62D820F4BB59002F27EB /* FMDB.h */,
+				CE6B62D920F4BB59002F27EB /* FMDatabaseAdditions.h */,
+				CE6B62DA20F4BB59002F27EB /* FMDatabasePool.m */,
+				CE6B62DB20F4BB59002F27EB /* FMResultSet.m */,
+				CE6B62DC20F4BB59002F27EB /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		CE6B62E320F4BB73002F27EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B62E420F4BB73002F27EB /* libsqlite3.0.tbd */,
+				F90E8D2538658524567EEDA2 /* Pods_fmdb_start.framework */,
+				D77EF378E5E55447BDCDE2EA /* Pods_fmdb_startTests.framework */,
+				1130E3827A2392F6EA9D774D /* Pods_fmdb_startUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDE942B2142CD05004D2847 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6B629E20F4BB26002F27EB /* fmdb_start */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6B62C720F4BB27002F27EB /* Build configuration list for PBXNativeTarget "fmdb_start" */;
+			buildPhases = (
+				E90B2244E1E6DFF357333E02 /* [CP] Check Pods Manifest.lock */,
+				CE6B629B20F4BB26002F27EB /* Sources */,
+				CE6B629C20F4BB26002F27EB /* Frameworks */,
+				CE6B629D20F4BB26002F27EB /* Resources */,
+				0D9637E8C0A2FFBB0DF37276 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fmdb_start;
+			productName = fmdb_start;
+			productReference = CE6B629F20F4BB26002F27EB /* fmdb_start.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6B62B220F4BB27002F27EB /* fmdb_startTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6B62CA20F4BB27002F27EB /* Build configuration list for PBXNativeTarget "fmdb_startTests" */;
+			buildPhases = (
+				B88B75DCE654246DE6EA3D64 /* [CP] Check Pods Manifest.lock */,
+				CE6B62AF20F4BB27002F27EB /* Sources */,
+				CE6B62B020F4BB27002F27EB /* Frameworks */,
+				CE6B62B120F4BB27002F27EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6B62B520F4BB27002F27EB /* PBXTargetDependency */,
+			);
+			name = fmdb_startTests;
+			productName = fmdb_startTests;
+			productReference = CE6B62B320F4BB27002F27EB /* fmdb_startTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6B62BD20F4BB27002F27EB /* fmdb_startUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6B62CD20F4BB27002F27EB /* Build configuration list for PBXNativeTarget "fmdb_startUITests" */;
+			buildPhases = (
+				AD7E96FE71FBA3B4FB44E978 /* [CP] Check Pods Manifest.lock */,
+				CE6B62BA20F4BB27002F27EB /* Sources */,
+				CE6B62BB20F4BB27002F27EB /* Frameworks */,
+				CE6B62BC20F4BB27002F27EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6B62C020F4BB27002F27EB /* PBXTargetDependency */,
+			);
+			name = fmdb_startUITests;
+			productName = fmdb_startUITests;
+			productReference = CE6B62BE20F4BB27002F27EB /* fmdb_startUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6B629720F4BB25002F27EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "山本シェーン";
+				TargetAttributes = {
+					CE6B629E20F4BB26002F27EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CE6B62B220F4BB27002F27EB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE6B629E20F4BB26002F27EB;
+					};
+					CE6B62BD20F4BB27002F27EB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE6B629E20F4BB26002F27EB;
+					};
+				};
+			};
+			buildConfigurationList = CE6B629A20F4BB25002F27EB /* Build configuration list for PBXProject "fmdb_start" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6B629620F4BB25002F27EB;
+			productRefGroup = CE6B62A020F4BB26002F27EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6B629E20F4BB26002F27EB /* fmdb_start */,
+				CE6B62B220F4BB27002F27EB /* fmdb_startTests */,
+				CE6B62BD20F4BB27002F27EB /* fmdb_startUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6B629D20F4BB26002F27EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5C47C8211CE9D30035CB45 /* PopupKokusaiViewController.xib in Resources */,
+				CE0F07D02144FF31005138BD /* Zikann_SaveName4.sqlite in Resources */,
+				CEF44C012163FA2B0090ACE7 /* Zikann_Koma9.sqlite in Resources */,
+				CEE0A49F2164BEA100BE6732 /* syusseki2.sqlite in Resources */,
+				CE6B62AD20F4BB27002F27EB /* LaunchScreen.storyboard in Resources */,
+				CE07D20D21754AA0006C04D6 /* Zikann_UmeKeizai2.sqlite in Resources */,
+				CE6B62AA20F4BB27002F27EB /* Assets.xcassets in Resources */,
+				CE6100C321108C790074AE48 /* PopupViewController.xib in Resources */,
+				CE6B62A820F4BB26002F27EB /* Main.storyboard in Resources */,
+				CEDE94262141810E004D2847 /* addZIkannPopupViewController.xib in Resources */,
+				CE6534AD21768A9C0052B12E /* Zikann_RegLec12.sqlite in Resources */,
+				CE6534BB2177CD590052B12E /* Zikann_ColorType9.sqlite in Resources */,
+				CE5C47BE211CBA370035CB45 /* PopupKeizaiViewController.xib in Resources */,
+				CE50CCAC2113A57F00E4981F /* addPopupViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6B62B120F4BB27002F27EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6B62BC20F4BB27002F27EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D9637E8C0A2FFBB0DF37276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fmdb_start/Pods-fmdb_start-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/MMPopLabel/MMPopLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMPopLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fmdb_start/Pods-fmdb_start-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7E96FE71FBA3B4FB44E978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fmdb_startUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88B75DCE654246DE6EA3D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fmdb_startTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90B2244E1E6DFF357333E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fmdb_start-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6B629B20F4BB26002F27EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B639820F4D69E002F27EB /* db_koma.swift in Sources */,
+				CE01812B21164E810034FC28 /* colorTableViewCell.swift in Sources */,
+				CEEC6352213EE7AB00044E9F /* iPhoneFrame.swift in Sources */,
+				CE0C0E2D21033D6D006E7128 /* allLecViewController.swift in Sources */,
+				CE42699821580D760082CF71 /* shiraImgViewController.swift in Sources */,
+				CEDE94252141810E004D2847 /* addZIkannPopupViewController.swift in Sources */,
+				CE5C47BD211CBA370035CB45 /* PopupKeizaiViewController.swift in Sources */,
+				CEA4840820FD18B000B00849 /* db_regLec.swift in Sources */,
+				CE6B62A520F4BB26002F27EB /* komaViewController.swift in Sources */,
+				CE32AF3A215CBBEB00440E34 /* getWhichDevice.swift in Sources */,
+				CE5C47C0211CC5660035CB45 /* umeSothukokusaiViewController.swift in Sources */,
+				CE6100C221108C790074AE48 /* PopupViewController.swift in Sources */,
+				CE32AF3C215E011E00440E34 /* getKeyboardHeight.swift in Sources */,
+				CE6B62E020F4BB59002F27EB /* FMDatabasePool.m in Sources */,
+				CEC7958E2136530E00191B41 /* db_umekeizai.swift in Sources */,
+				CE5C47C4211CD37E0035CB45 /* lecTableFromKokusaiUmeTableViewCell.swift in Sources */,
+				CEF44C03216412B00090ACE7 /* syussekiViewController.swift in Sources */,
+				CEC795A62136B42300191B41 /* backImgViewController.swift in Sources */,
+				CED9A518210924F500018BFB /* lecTableFromUmeTableViewCell.swift in Sources */,
+				CE6B62E120F4BB59002F27EB /* FMResultSet.m in Sources */,
+				CE6B62E920F4BC52002F27EB /* Util.swift in Sources */,
+				CE1D232421069C7F004BA8AC /* umeSothuViewController.swift in Sources */,
+				CE0C0CCD2101FC25006E7128 /* shirabasuViewController.swift in Sources */,
+				CE5C47B6211C782C0035CB45 /* lecTableFromKeizaiUmeTableViewCell.swift in Sources */,
+				CEC795AC2136B51300191B41 /* PagingPerCellFlowLayout.swift in Sources */,
+				CEE0A49D2164B32700BE6732 /* db_syusseki.swift in Sources */,
+				CE6B62A320F4BB26002F27EB /* AppDelegate.swift in Sources */,
+				CE6B62DD20F4BB59002F27EB /* FMDatabaseQueue.m in Sources */,
+				CE50CCEC2115FA2400E4981F /* db_colorType.swift in Sources */,
+				CE01812D2116D5870034FC28 /* selectColorViewController.swift in Sources */,
+				CE6B62DF20F4BB59002F27EB /* FMDatabase.m in Sources */,
+				CE5C47BA211C9E530035CB45 /* umeSothukeizaiViewController.swift in Sources */,
+				CEDE942A2142BDC8004D2847 /* db_zikannName.swift in Sources */,
+				CE416DB921038FC500C2D039 /* shirabasuFromAllViewController.swift in Sources */,
+				CE5C47B2211C77300035CB45 /* lecTableFromKeizaiUmeViewController.swift in Sources */,
+				CE01812F21176D9E0034FC28 /* colorList.swift in Sources */,
+				CEC099EA212D433600F4B806 /* backgroundList.swift in Sources */,
+				CE6B62DE20F4BB59002F27EB /* FMDatabaseAdditions.m in Sources */,
+				CEA4840620FBE48F00B00849 /* TableViewCell.swift in Sources */,
+				CE6B639A20F4D806002F27EB /* FMDBDatabaseModel.swift in Sources */,
+				CE6534B921769B220052B12E /* getTiikiColor.swift in Sources */,
+				CE50CCAB2113A57F00E4981F /* addPopupViewController.swift in Sources */,
+				CED9A516210923EC00018BFB /* lecTableFromUmeViewController.swift in Sources */,
+				CEE0A49B2164AD2800BE6732 /* syussekiTableViewCell.swift in Sources */,
+				CE5C47C2211CD34A0035CB45 /* lecTableFromKokusaiUmeViewController.swift in Sources */,
+				CE01812921164D740034FC28 /* colorViewController.swift in Sources */,
+				CE0C0E2F21033E2E006E7128 /* allLecTableViewCell.swift in Sources */,
+				CE5C47C7211CE9D30035CB45 /* PopupKokusaiViewController.swift in Sources */,
+				CE6F18B72118EA59007AC78A /* selectNewColorViewController.swift in Sources */,
+				CEC795A82136B4AD00191B41 /* CarouselCell.swift in Sources */,
+				CEA4840420FBE41500B00849 /* lecViewController.swift in Sources */,
+				CEA4840A20FDCFFC00B00849 /* DetailViewController.swift in Sources */,
+				CE6534BF21780F8C0052B12E /* getTiikiNewType.swift in Sources */,
+				CE32AF3E215E0D0300440E34 /* getSafeViewHeight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6B62AF20F4BB27002F27EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B62B820F4BB27002F27EB /* fmdb_startTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6B62BA20F4BB27002F27EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B62C320F4BB27002F27EB /* fmdb_startUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6B62B520F4BB27002F27EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6B629E20F4BB26002F27EB /* fmdb_start */;
+			targetProxy = CE6B62B420F4BB27002F27EB /* PBXContainerItemProxy */;
+		};
+		CE6B62C020F4BB27002F27EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6B629E20F4BB26002F27EB /* fmdb_start */;
+			targetProxy = CE6B62BF20F4BB27002F27EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6B62A620F4BB26002F27EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6B62A720F4BB26002F27EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6B62AB20F4BB27002F27EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6B62AC20F4BB27002F27EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6B62C520F4BB27002F27EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6B62C620F4BB27002F27EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6B62C820F4BB27002F27EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7502C72C1FFF5967F6E6032D /* Pods-fmdb_start.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFD3PUDWT7;
+				INFOPLIST_FILE = fmdb_start/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zikannwari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/fmdb_start-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE6B62C920F4BB27002F27EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF6695BFF92120E13BD1D03 /* Pods-fmdb_start.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFD3PUDWT7;
+				INFOPLIST_FILE = fmdb_start/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zikannwari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/fmdb_start-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE6B62CB20F4BB27002F27EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14D9B6BDC42F0E715F53077 /* Pods-fmdb_startTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fmdb_startTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fmdb-startTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmdb_start.app/fmdb_start";
+			};
+			name = Debug;
+		};
+		CE6B62CC20F4BB27002F27EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1615B5C26545B89FACD0CD7B /* Pods-fmdb_startTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fmdb_startTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fmdb-startTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmdb_start.app/fmdb_start";
+			};
+			name = Release;
+		};
+		CE6B62CE20F4BB27002F27EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CA1CA41616E27F89FC2F82 /* Pods-fmdb_startUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fmdb_startUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fmdb-startUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fmdb_start;
+			};
+			name = Debug;
+		};
+		CE6B62CF20F4BB27002F27EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A23EA9F42F04A7A453F044F /* Pods-fmdb_startUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fmdb_startUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.fmdb-startUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fmdb_start;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6B629A20F4BB25002F27EB /* Build configuration list for PBXProject "fmdb_start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B62C520F4BB27002F27EB /* Debug */,
+				CE6B62C620F4BB27002F27EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6B62C720F4BB27002F27EB /* Build configuration list for PBXNativeTarget "fmdb_start" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B62C820F4BB27002F27EB /* Debug */,
+				CE6B62C920F4BB27002F27EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6B62CA20F4BB27002F27EB /* Build configuration list for PBXNativeTarget "fmdb_startTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B62CB20F4BB27002F27EB /* Debug */,
+				CE6B62CC20F4BB27002F27EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6B62CD20F4BB27002F27EB /* Build configuration list for PBXNativeTarget "fmdb_startUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B62CE20F4BB27002F27EB /* Debug */,
+				CE6B62CF20F4BB27002F27EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6B629720F4BB25002F27EB /* Project object */;
+}
